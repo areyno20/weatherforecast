@@ -1,8 +1,8 @@
-# Challenge 1 Webpage 
+# Challenge 6 Weather Dashboard
 
 ## Description
 
-This week one challenege is intended to showcase the skills learnt throughout the first week of the boot camp. It contains a web page with HTML and CSS elements. The code has been restructured and fixed to meet the acceptance criteria provided. 
+This week six challenege is intended to showcase the skills learnt throughout module 6. It contains a webpage with a weather dashboard using third-party API's.
 
 ## Installation
 
@@ -10,21 +10,21 @@ N/A
 
 ## Usage
 
-This challenge 1 webpage can be used for reference of certain topics of HTML and style.css. This challenge can be looked back upon for further use throughout the course as well. The following acceptance criteria has been followed as best as can be to achieve maximum success:
+User Story
+AS A traveler
+I WANT to see the weather outlook for multiple cities
+SO THAT I can plan a trip accordingly
 
--Appications links function correctly
--Applications CSS selectors and properties organized to follow semantic structure
--Applications CSS file is properly commented.
--Application deployed at live URL
--Application loads with no errors
--Application GitHub URL submitted.
--GitHub repository contains application code.
--Application resembles screenshots provided.
--Repository has a unique name.
--Repository follows best practices for file structure.
--Repository follows best practices for naming.
--Repository contains descriptive commit messages.
--Repository contains quality README, screenshot and link for deployed application.
+Acceptance Criteria
+GIVEN a weather dashboard with form inputs
+WHEN I search for a city
+THEN I am presented with current and future conditions for that city and that city is added to the search history
+WHEN I view current weather conditions for that city
+THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, and the the wind speed
+WHEN I view future weather conditions for that city
+THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
+WHEN I click on a city in the search history
+THEN I am again presented with current and future conditions for that city
 
 ## Credits
 
