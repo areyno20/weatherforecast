@@ -1,7 +1,6 @@
 # Challenge 6 Weather Dashboard
 
 ## Description
-
 This week six challenege is intended to showcase the skills learnt throughout module 6. It contains a webpage with a weather dashboard using third-party API's.
 
 ## Installation
@@ -9,7 +8,6 @@ This week six challenege is intended to showcase the skills learnt throughout mo
 N/A
 
 ## Usage
-
 User Story
 AS A traveler
 I WANT to see the weather outlook for multiple cities

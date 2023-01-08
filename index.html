@@ -8,58 +8,51 @@
     <title>5 Day Weather Forecast</title>
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-    crossorigin="anonymous"
-    />
     </head>
 
-  <body>
-    <header class="header">
+  <body onload="DefaultScreen()">
+    <div class="header">
     <h1 id="title">5 Day Weather Forecast</h1>
     <p id="titlep">City: <input type="text" id="cityInput"></p>
-    <button>Click Me</button>
+    <button type="button" onclick="GetInfo()">Click Me</button>
     <h2 id="cityName"></h2>
-    </header>
+    </div>
    
-    <div id="weathercontainer">
-        <div id="iconscontainer">
-            <div class="icons">
+    <div id = "weatherContainer">
+        <div id="iconsContainer">    
+            <div class = "icons">
                 <p class="weather" id="day1"></p>
-                <div class="image"> <img src="weatherimage" class="imgclass" id="img1" alt=""></div>
-                <p class="minV" id="day1min">Loading...</p>
-                <p class="maxV" id="day1max">Loading...</p>
+                <div class="image"><img src="" class="imgClass" id="img1"></div>
+                <p class="minValues" id="day1Min"></p>
+                <p class="maxValues" id="day1Max"></p>
             </div>
-            <div class="icons">
+            <div class = "icons">
                 <p class="weather" id="day2"></p>
-                <div class="image"> <img src="weatherimage" class="imgclass" id="img1" alt=""></div>
-                <p class="minV" id="day2min">Loading...</p>
-                <p class="maxV" id="day2max">Loading...</p>
+                <div class="image"><img src="" class="imgClass" id="img2"></div>
+                <p class="minValues" id="day2Min"></p>
+                <p class="maxValues" id="day2Max"></p>
             </div>
-            <div class="icons">
+            <div class = "icons">
                 <p class="weather" id="day3"></p>
-                <div class="image"> <img src="weatherimage" class="imgclass" id="img1" alt=""></div>
-                <p class="minV" id="day3min">Loading...</p>
-                <p class="maxV" id="day3max">Loading...</p>
+                <div class="image"><img src="" class="imgClass" id="img3"></div>
+                <p class="minValues" id="day3Min"></p>
+                <p class="maxValues" id="day3Max"></p>
             </div>
-            <div class="icons">
+            <div class = "icons">
                 <p class="weather" id="day4"></p>
-                <div class="image"> <img src="weatherimage" class="imgclass" id="img1" alt=""></div>
-                <p class="minV" id="day4min">Loading...</p>
-                <p class="maxV" id="day4max">Loading...</p>
+                <div class="image"><img src="" class="imgClass" id="img4"></div>
+                <p class="minValues" id="day4Min"></p>
+                <p class="maxValues" id="day4Max"></p>
             </div>
-            <div class="icons">
-                <p class="weather" id="day1"></p>
-                <div class="image"> <img src="weatherimage" class="imgclass" id="img1" alt=""></div>
-                <p class="minV" id="day1min">Loading...</p>
-                <p class="maxV" id="day1max">Loading...</p>
+            <div class = "icons">
+                <p class="weather" id="day5"></p>
+                <div class="image"><img src="" class="imgClass" id="img5"></div>
+                <p class="minValues" id="day5Min"></p>
+                <p class="maxValues" id="day5Max"></p>
             </div>
         </div>
     </div>
    
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
